@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Futura MD", sans-serif;
+}
+
+a, p, li{
+ font-size: 2rem;
+}
+
+h1 {
+  font-size: 5.5rem;
+  line-height: 6rem;
+} 
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  padding: 1.6rem 10%;
+}
+
+
