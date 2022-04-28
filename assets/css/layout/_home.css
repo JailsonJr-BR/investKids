@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
 }
 
 ._home-rigth h1, p {
@@ -19,6 +20,11 @@
 ._home-btn {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+._home-btn a {
+  margin-right: 1rem;
 }
 
 ._home-left img{
@@ -32,6 +38,12 @@
   color: #052A44;
 }
 
+._btn-linkc:hover{
+  background: #052A44;
+  border: solid 2px #052A44;
+  color: #fff;
+}
+
 
 ._btn-linkb {
   padding: .9rem 3rem;
@@ -41,8 +53,14 @@
   color: #fff;
 }
 
+._btn-linkb:hover {
+  border: solid 2px #2f8cbe;
+  background: #2f8cbe;
+}
+
 ._home-cards{
   display: flex;
+  margin-top: 13rem;
 }
 
 ._home-cards p {
@@ -65,12 +83,15 @@
   background: #052A44;
 }
 
-._home-btn {
-margin-top: 2.5rem;
-}
+@media (max-width:1300px) {
 
-._home-cards {
-  margin-top: 17rem;
+  ._home-cards{
+    margin-top: 3rem;
+  }
+
+  ._home-left {
+    margin-top: 9rem;
+  }
 }
 
 @media (max-width:1200px) {
@@ -90,8 +111,10 @@ margin-top: 2.5rem;
     margin-top: 10rem;
   }
 
-
-
+  ._home-left {
+    display: flex;
+    justify-content: center;
+  }
 
   ._cards-item {
     margin-top: 3rem;
@@ -109,6 +132,10 @@ margin-top: 2.5rem;
     margin-bottom: 2rem;
   }
 
+  ._home-left img{
+    width: 80%;
+  }
+
 }
 
 @media (max-width:1024px) {
@@ -116,5 +143,9 @@ margin-top: 2.5rem;
     width: 80%;
     max-width: 100%;
     padding: 6.4rem ;
+  }
+
+  ._home-left img{
+    width: 80%;
   }
 }

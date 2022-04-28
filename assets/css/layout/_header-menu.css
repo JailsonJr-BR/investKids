@@ -14,7 +14,6 @@
 }
 
 ._nav-menu a:hover{
-  margin-left: 3rem;
   color: #63C7FD;
 }
 
@@ -28,8 +27,40 @@ color: #052A44;
 }
 
 ._header-language {
+  margin-left: 3rem;
+}
+
+._header-language img {
   margin-right: 3rem;
 }
+
+._header-languageh {
+  display: none;
+}
+
+._header-languageh li {
+  margin-bottom: .5rem;
+}
+
+._header-languageh a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+._header-languageh a:hover{
+  color: #63C7FD;
+}
+
+._header-languageh.active {
+  display: block;
+  position: absolute;
+  background: #052a44;
+  top: 5.5rem;
+  right: inherit;
+  padding: .2rem 0.3rem;
+}
+
+
 
 ._btn-link{
   padding: .7rem 3rem;
