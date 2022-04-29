@@ -29,6 +29,16 @@
 
 ._home-left img{
   width: 100%;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 ._btn-linkc {
@@ -69,8 +79,8 @@
   border-radius: 8px;
   color: #fff;
   margin-right: 2rem;
+  animation: float 8s ease-in-out infinite;
 }
-
 ._cards-item:nth-child(1) {
   background: #EF5C53;
 }
@@ -78,6 +88,7 @@
 ._cards-item:nth-child(2) {
   background: #FDD444;
 }
+
 
 ._cards-item:nth-child(3) {
   background: #052A44;
@@ -108,7 +119,8 @@
   ._home-cards {
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 4rem;
+    animation: none;
   }
 
   ._home-left {
@@ -143,6 +155,7 @@
     width: 80%;
     max-width: 100%;
     padding: 6.4rem ;
+    animation: none;
   }
 
   ._home-left img{
