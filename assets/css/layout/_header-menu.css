@@ -6,6 +6,7 @@
 
 ._nav-menu {
   display: flex;
+  z-index: 1;
 }
 
 ._nav-menu a{
