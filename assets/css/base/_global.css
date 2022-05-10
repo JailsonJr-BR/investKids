@@ -13,7 +13,17 @@ a, p, li{
 h1 {
   font-size: 5.5rem;
   line-height: 6rem;
-} 
+}
+
+h2 {
+  font-size: 4.5rem;
+  color: #63C7FD;
+}
+
+h3 {
+  font-family: "Futura MD", sans-serif;
+  font-size: 3rem;
+}
 
 .wrapper {
   position: relative;

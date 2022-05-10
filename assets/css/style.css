@@ -4,6 +4,8 @@
 
 @import url(layout/_header-menu.css);
 @import url(layout/_home.css);
+@import url(layout/_metod.css);
+@import url(layout/_footer.css);
 
 
 @import url(components/_overlay.css);

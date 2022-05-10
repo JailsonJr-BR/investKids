@@ -37,9 +37,9 @@ document.querySelectorAll("._nav-link").forEach(n => n.addEventListener("click",
 }))
 
 //teste
-var dataReload = document.querySelectorAll("[data-reload]");
+const dataReload = document.querySelectorAll("[data-reload]");
 
-var lang = {
+const lang = {
   en: {
     teste1: "Free trial"
   },
@@ -59,8 +59,14 @@ if (window.location.hash) {
   }
 }
 
-for (i = 0; i <= dataReload.length; i++) {
-  dataReload[i].onclick = function() {
-    location.reload(true);
-  };
+if (window.location.hash) {
+  if (window.location.hash === "#pt") {
+    teste.textContent = lang.es.teste1;
+    homep.textContent = lang.es.homep;
+  }
 }
+
+Array.from(dataReload).forEach(el => el.addEventListener("click", (e) => {
+  e.preventDefault()
+  location.reload()
+  }))
